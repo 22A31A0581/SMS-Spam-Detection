@@ -1,35 +1,27 @@
-# SMS-Spam-Detection
-# 📱 SMS Spam Detection with Machine Learning
+# 📱 SMS Spam Detection using Machine Learning
+# 🧠 Overview
 
-This project implements an SMS Spam Detection system using Python and machine learning techniques. It classifies SMS messages as either **Spam** or **Ham (Not Spam)** using natural language processing and classification algorithms.
-
-## 🚀 Features
-
-- Binary classification: Spam vs Ham
-- Text preprocessing and feature extraction (TF-IDF)
-- Model training using Random Forest
-- Model evaluation with accuracy and classification report
-- Easily extendable to other classifiers (Naive Bayes, SVM, etc.)
-
-## 🧠 Algorithms Used
-
-- Random Forest Classifier
-- Optionally test with other models (Naive Bayes, Logistic Regression)
+This project is a Machine Learning-based SMS Spam Detector that classifies text messages as Spam or Ham (Non-Spam) using Natural Language Processing (NLP) and a Logistic Regression model.
+It uses the TF-IDF (Term Frequency–Inverse Document Frequency) method to convert message text into numerical feature vectors for model training and prediction.
 
 
-## 📦 Requirements
+# 🧩 Features
 
-Install the necessary Python packages using:
+Preprocessing of text messages using TF-IDF vectorization
 
-```bash
-pip install -r requirements.txt
+Logistic Regression model for binary classification
 
+High accuracy (~96%) on both training and testing data
 
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-git clone https://github.com/yourusername/sms-spam-detection.git
-cd sms-spam-detection
+Real-time message prediction feature
+
+# 🧰 Technologies Used
+
+Python 🐍
+
+NumPy and Pandas for data handling
+
+Scikit-learn (sklearn) for model building and evaluation
+
+Jupyter Notebook / Google Colab for development and visualization
 
